@@ -24,3 +24,7 @@ class ProductFacade{
         return $this->products[$id];
     }
 }
+
+
+$f = new ProductFacade('file.txt');
+$f->getProduct(1);
